@@ -1,0 +1,88 @@
+#top {
+  #brand {
+    &.left-line {
+      &::after {
+        top: 48px;
+      }
+    }
+    .link-title {
+      top: 28px;
+    }
+    .bg-img {
+      padding: 36px 0;
+    }
+  }
+  .bg-img {
+    &.left-line {
+      padding: 28px max(2%, 48px) !important;
+      @media screen and (max-width: $tb) {
+        padding: 18px max(2%, 36px) !important;
+      }
+    }
+  }
+  .link-title {
+    top: 30px;
+    left: 2px;
+    position: absolute;
+    margin: 0;
+    padding-left: 4px;
+    font-size: 16px;
+    color: #fff;
+    border-left: 1px solid $c-link;
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+  }
+  .left-line {
+    max-width: 1160px;
+    margin: 0 auto;
+    position: relative;
+    padding: 48px 36px;
+    &::after {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 24px;
+      content: "";
+      display: block;
+      width: 1px;
+      background: #ffc800;
+    }
+    // > .container-fluid,
+    // > .container,
+    // > .row
+    // > .d-flex {
+    //   padding-left: 28px;
+    //   padding-right: 28px;
+    // }
+  }
+  #catalogue {
+    background: #000;
+  }
+
+  .footer-link {
+    padding: 48px 36px;
+  }
+  .footer-link {
+    margin-bottom: 40px;
+    padding: 48px 0;
+    > .d-flex {
+      width: calc(100% - 48px);
+      margin: 0 auto;
+    }
+  }
+}
+
+#demos {
+  background-color: #101010;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+  @media screen and (max-width: $sp) {
+    padding-bottom: 0;
+  }
+}
+.card .page-link a {
+  @media screen and (max-width: $tb) {
+    width: min(300px, 100%);
+  }
+}

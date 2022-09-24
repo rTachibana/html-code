@@ -1,0 +1,39 @@
+.brands .catalogue-banner {
+  height: 400px;
+  width: 100%;
+  background-image: url(/assets/images/Group_107.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tab_content .catalogue {
+  background-color: #000;
+  color: #fff;
+}
+
+.tab_content .catalogue .image-series {
+  height: 40px;
+}
+
+.tab_content .catalogue .image-series .img {
+  height: 100%;
+}
+
+// .tab_content .catalogue .text-center {
+//   border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+// }
+
+.tab_content .catalogue .view-more {
+  text-align: center;
+}
+
+.tab_content .catalogue .view-more .link-more {
+  background-color: #ffc703;
+  color: #000;
+  padding: 12px 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 20px;
+  padding-left: 40px;
+}

@@ -1,0 +1,84 @@
+#brand {
+  h2 {
+    color: #ffc800;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 40px;
+    padding-left: 44px;
+    background: url('/assets/images/brand_sub_icon.svg') top left no-repeat;
+  }
+  overflow: hidden;
+  p {
+    color: #bdbdbd;
+  }
+  .brands {
+    color: #bdbdbd;
+  }
+  .brands-nav {
+    padding: 50px 0 200px;
+    @media screen and (max-width: $tb) {
+      padding-bottom: 50px;
+    }
+  }
+  .brands-name {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    li {
+      display: flex;
+      width: unquote("calc((100% - 3px) / 4)");
+      height: 64px;
+      padding: 2px;
+      border-right: solid 1px #fff;
+      line-height: 0;
+      &:last-child {
+        border: none;
+      }
+      @media screen and (max-width: $tb) {
+        width: unquote("calc((100% - 1px) / 2)");
+        &:not(:nth-of-type(2n - 1)) {
+          border: none;
+        }
+      }
+    }
+    a {
+      display: inline-block;
+      margin: auto;
+      padding: 12px 10px;
+    }
+    img {
+      height: 40px;
+      width: auto;
+      object-fit: contain;
+      object-position: center;
+      @media screen and (max-width: $tb) {
+        height: 30px;
+      }
+    }
+  }
+  .carousel {
+    padding: 0;
+    background: #181818;
+  }
+}
+
+#footer {
+  background: #181818;
+}
+
+.brands {
+  color: #fff;
+}
+
+#carouselExampleIndicators {
+  .carousel-inner {
+    background: #181818;
+  }
+}

@@ -1,0 +1,30 @@
+.bg-color {
+  background-color: #181818 !important;
+  /* background-image: url(/assets/images/Group\ 94@2x.png); */
+  // background-repeat: no-repeat;
+  // background-position: top -27px right -92px;
+  // background-size: 400% 29rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.border-line {
+  width: 90vw;
+  max-width: 960px;
+  margin: 0 auto;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.62);
+}
+
+.border_bottom,
+.under-line {
+  border-bottom: solid 2px rgba(255, 255, 255, 0.62);
+  width: 70vw;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.top-line {
+  border-top: 2px solid rgba(255,255,255,.5);
+}

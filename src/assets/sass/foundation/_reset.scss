@@ -1,0 +1,19 @@
+:root {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  font-family: "Roboto", "Noto Sans JP", sans-serif;
+}
+
+a {
+  transition: background 0.24s;
+}
+
+p {
+  margin: 0px;
+}

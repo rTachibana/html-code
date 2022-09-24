@@ -1,0 +1,94 @@
+.container {
+  .flex-d .social-link {
+    display: inline-block;
+    border-radius: 50%;
+    height: 160px;
+    width: max(160px, 25%);
+    background: #333333;
+    &:hover {
+      background: #4d4d4d;
+    }
+    @media screen and (max-width: $tb) {
+      width: 80px;
+      height: 80px;
+    }
+    @media screen and (max-width: $sp) {
+      width: 60px;
+      height: 60px;
+    }
+    .img {
+      display: inline-block;
+      padding: 30%;
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+.text-wrap {
+  padding: 0 calc(var(--bs-gutter-x) * .5) ;
+}
+
+.breadcrumb {
+  max-width: $tb;
+  margin: 0 auto;
+  padding-top: 15px;
+  a {
+    text-decoration: none;
+    color: #bdbdbd;
+  }
+  &-item {
+    margin: 0;
+    color: #dbdbdb;
+    &.active {
+      color: #dbdbdb;
+    }
+    &::before {
+      color: #dbdbdb;
+    }
+  }
+}
+// LINK
+.view-more,
+.page-link,
+.button-link {
+  text-align: center;
+  a {
+    position: relative;
+    display: inline-block;
+    padding: 18px 28px;
+    background: #ffc801;
+    color: #101010;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    width: 320px;
+    max-width: 100%;
+    &::after {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      content: "\e5e1";
+      font-family: "Material Symbols Rounded";
+      font-style: normal;
+      transform: translateY(-50%);
+      @media screen and (max-width: $tb) {
+        right: 4;
+      }
+    }
+    &:hover {
+      background: #ffe584;
+    }
+    @media screen and (max-width: $tb) {
+      font-size: 16px;
+      padding: 16px;
+    }
+  }
+}
+.view-more {
+  a {
+    width: 216px;
+    font-style: italic;
+  }
+}

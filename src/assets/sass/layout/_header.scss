@@ -1,0 +1,85 @@
+/* Second tab */
+.head {
+  background-image: url(/assets/images/210622F_IH_0794.png);
+  background-repeat: no-repeat;
+  background-color: #0f0f0f;
+  background-position: bottom;
+  background-size: cover;
+  .top {
+    color: #fff;
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+  }
+  .heading {
+    line-height: 1.2;
+    color: #fff;
+    h1 {
+      font-size: 100px;
+      font-weight: 500;
+      margin-top: 6%;
+      margin-bottom: 3%;
+      letter-spacing: 1px;
+      @media screen and (max-width: $tb) {
+        padding-left: 0;
+        font-size: 60px;
+      }
+      @media screen and (max-width: $sp) {
+        font-size: 36px;
+      }
+      .color-size {
+        color: #ffc107;
+      }
+    }
+    // .text-prg {
+    //   font-size: 30px;
+    // }
+  }
+}
+
+.header-lead {
+  font-size: 36px;
+  margin-bottom: 0.5em;
+  @media screen and (max-width: $sp) {
+    font-size: 24px;
+  }
+}
+
+.header-sub {
+  font-size: 20px;
+  color: #bdbdbd;
+  @media screen and (max-width: $sp) {
+    font-size: 16px;
+  }
+}
+
+/* >>>>> S-AIR.HTML PAGE CSS START FROM HERE <<<<<< */
+
+.tab_pane .top {
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.tab_pane .bg-color {
+  background-color: #101010;
+  color: #fff;
+}
+
+.tab_pane .item-carousel {
+  width: 100vw;
+}
+
+.tab_pane .item-carousel .col-lg-4:nth-of-type(odd) .carousel-img {
+  opacity: 0.5;
+}
+
+.tab_pane .item-carousel .height {
+  height: 150px;
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  right: 16%;
+}
+
+.tab_pane .item-carousel .height .carousel-img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
