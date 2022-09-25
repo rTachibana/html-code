@@ -28,7 +28,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 0 auto;
+    margin: 80px auto 48px;
     padding: 0;
     list-style: none;
     li {
@@ -78,20 +78,42 @@
 }
 
 #carouselExampleIndicators {
-  .carousel-inner {
-    background: #181818;
-  }
   &[class^="logo"] {
     &::before {
       content: "";
       display: block;
       position: absolute;
       top: 50%;
+      left: 50%;
+      height: 110px;
+      width: 260px;
+      margin: 0 auto;
+      background: transparent center / contain no-repeat;
+      transform: translate(-50%, -50%);
+      z-index: 1000;
     }
   }
   &.logo-stx {
-    ::before {
-      background: url("/assets/images/logo_stx.png") no-repeat;
+    &::before {
+      background-image: url("/assets/images/logo_stx.png");
     }
+  }
+  &.logo-slash {
+    &::before {
+      background-image: url("/assets/images/logo_slash.png");
+    }
+  }
+  &.logo-s-air {
+    &::before {
+      background-image: url("/assets/images/logo_s_air.png");
+    }
+  }
+  &.logo-s-heat {
+    &::before {
+      background-image: url("/assets/images/logo_s_heat.png");
+    }
+  }
+  .carousel-inner {
+    background: #181818;
   }
 }
