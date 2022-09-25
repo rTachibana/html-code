@@ -372,12 +372,15 @@
   font-size: 20px;
 }
 
-.brands .fluid-container {
-  background-image: url(/assets/images/Group\ 94@2x.png);
-  background-repeat: no-repeat;
-  background-position: top 60% center;
-  background-size: 104% 15em;
-}
+// .brands .fluid-container {
+//   background: url(/assets/images/brand_bg.png) center / auto 40% repeat-x;
+//   @media screen and (max-width: $tb) {
+//     background-size: auto 50%;
+//   }
+//   @media screen and (max-width: $sp) {
+//     background-size: auto 60%
+//   }
+// }
 
 .brands .fluid-container .container .image {
   height: 90%;

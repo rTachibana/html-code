@@ -81,4 +81,17 @@
   .carousel-inner {
     background: #181818;
   }
+  &[class^="logo"] {
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 50%;
+    }
+  }
+  &.logo-stx {
+    ::before {
+      background: url("/assets/images/logo_stx.png") no-repeat;
+    }
+  }
 }
