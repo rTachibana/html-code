@@ -17,6 +17,9 @@ Flocssのディレクトリは切っていますが、前の作業者のソー�
 # 仕様書など
 下記をご確認ください
 
+## bilbase リポジトリ
+https://github.com/bilbase/shinmen
+
 ## 仕様書格納場所
 https://drive.google.com/drive/folders/1RVEuJyqjCvuO7ypQyNm-HcNYVzLZgo7j
 
