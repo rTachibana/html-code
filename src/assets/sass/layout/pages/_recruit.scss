@@ -1,8 +1,17 @@
 #recruit {
     .view-more {
         a {
-            border-radius: 0;
             width: 280px;
         }
+    }
+    .banner {
+        height: 300px;
+        width: 90%;
+        background-image: url("../../../dist/assets/images/Group-recruit107.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #111111;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
