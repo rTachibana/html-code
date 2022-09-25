@@ -1,9 +1,4 @@
-#recruit {
-    .view-more {
-        a {
-            width: 280px;
-        }
-    }
+#recruit-career {
     .banner {
         height: 300px;
         width: 90%;
@@ -13,5 +8,8 @@
         background-color: #111111;
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .requirements .divider{
+        opacity: 1;
     }
 }
