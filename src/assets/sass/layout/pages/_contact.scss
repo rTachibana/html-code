@@ -1,0 +1,31 @@
+#contact {
+    .page-title {
+        .image-wrapper {
+            width: 100px;
+            height: 75px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .nav-item:not(:last-of-type)::after {
+        content: none;
+    }
+
+    .description-box {
+        height: 200px;
+        background-color: #fff;
+        color: #000;
+        overflow: auto;
+        padding: 10px;
+    }
+
+    .nav-tabs .nav-item {
+        flex-grow: inherit;
+        width: 28%;
+    }
+}
