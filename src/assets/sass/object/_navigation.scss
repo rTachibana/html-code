@@ -203,9 +203,10 @@
   position: sticky;
   left: 96%;
   top: 92vh;
-  height: 0px;
-  width: 45px;
+  height: 32px;
+  width: 32px;
   z-index: 10;
+  background: url('/assets/images/scroll_icon.svg') center / contain no-repeat;
 }
 
 .up-word a {

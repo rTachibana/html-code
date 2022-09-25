@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <path id="up-link" d="M1280,800V768h-32v32Zm-20-16.8v-6.4h8v6.4h4l-8,8-8-8Z" transform="translate(1280 800) rotate(180)" fill="#ffc800"/>
+</svg>
