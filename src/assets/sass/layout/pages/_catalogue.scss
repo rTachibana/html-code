@@ -1,9 +1,10 @@
-.brands .catalogue-banner {
-  height: 400px;
-  width: 100%;
-  background-image: url(/assets/images/Group_107.png);
-  background-position: center;
-  background-repeat: no-repeat;
+#catalog {
+  .header-banner {
+    background-image: url("/assets/images/header_banner_bg.png");
+  }
+  .card {
+    background: inherit;
+  }
 }
 
 .tab_content .catalogue {

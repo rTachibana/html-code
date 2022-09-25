@@ -1,4 +1,9 @@
 #top {
+  #carouselExampleIndicators {
+    .carousel-inner {
+      background: #ccc;
+    }
+  }
   #brand {
     &.left-line {
       &::after {
