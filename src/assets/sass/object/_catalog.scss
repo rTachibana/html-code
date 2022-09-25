@@ -1,0 +1,21 @@
+.catalog-design {
+  @media screen and (max-width: $tb) {
+    width: 100%;
+  }
+}
+.catalog-wrap {
+  .more {
+    width: calc(100% / 3 - 30px);
+    margin: 0 15px 30px;
+    text-align: center;
+    @media screen and (max-width: $sp) {
+      width: calc(100% / 2 - 30px);
+    }
+    p {
+      font-size: 36px;
+      @media screen and (max-width: $sp) {
+        font-size: 16px;
+    }
+    }
+  }
+}

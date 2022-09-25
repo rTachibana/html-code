@@ -5,6 +5,9 @@
   background-color: #0f0f0f;
   background-position: bottom;
   background-size: cover;
+  @media screen and (max-width: $tb) {
+    background-position: left -20vw top;
+  }
   .top {
     color: #fff;
     border-top: 2px solid rgba(255, 255, 255, 0.5);

@@ -65,14 +65,16 @@
     text-align: right;
     @media screen and (max-width: $sp) {
       margin: 48px auto 0;
-      text-align: center;
     }
     a {
       position: absolute;
       right: 0;
       left: 0;
       text-align: center;
-      margin: 0 auto;
+      margin: 0 0 0 auto;
+      @media screen and (max-width: $tb) {
+        margin: 0 auto;
+      }
     }
   }
   .unique-tech {

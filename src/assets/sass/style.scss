@@ -16,7 +16,10 @@
 
 @import "object/util";
 @import "object/button";
+@import "object/other-lineup";
 @import "object/navigation";
+@import "object/catalog";
+@import "object/hedding";
 
 .d-flex .brand {
   margin-left: 10%;
@@ -282,12 +285,6 @@
   }
 }
 
-// .brand-six .link {
-//   position: initial;
-//   right: 0px;
-//   bottom: 0px;
-// }
-
 .brands .link .s-air-link .right-arrow {
   padding-left: 25px;
 }
@@ -373,7 +370,6 @@
 // }
 
 .brands .fluid-container .container .image {
-  height: 90%;
   width: 100%;
 }
 
@@ -574,13 +570,6 @@
   background-color: #111111;
   margin-left: 5%;
   margin-right: 5%;
-}
-
-.brands .more p {
-  border: 1px solid #fff;
-  font-size: 40px;
-  padding: 10px 90px;
-  letter-spacing: 4px;
 }
 
 .brands .unique-brands-name {
